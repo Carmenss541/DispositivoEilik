@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+html {
+    font-size: 63.5%;
+}
+header h1 {
+    font-size: 5rem;
+    color: #010101;
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    left: 140px;
+
+}
+
+
+
+header {
+    position: relative;
+    max-width: 100vw;
+
+}
+
+header img{
+    width:100%;
+
+}
+
+img#eilik {
+    width: 100%;
+}
+
+
+
+header nav {
+    border-top: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+    position: absolute;
+    top: 130px;
+    width: 100%;
+    background-color: #000000af;
+    display: flex;
+    justify-content: center;
+
+}
+nav ul {
+    list-style: none;
+
+}
+
+nav ul li {
+    padding: 1rem 1.5rem;
+    display: inline-block;
+}
+
+nav ul li a {
+    font-size: 2.5rem;
+    color: #FFFFFF;
+}
+
+nav ul li a:hover {
+    font-size: 2.7rem;
+    color: #dfdb06;
+}
+
+
+
+aside {
+    margin: 2rem 0;
+    justify-content: center;
+}
+
+blockquote{
+    border-left: 10px solid var(#000000af);
+    padding: 1rem;
+    font-style:normal;
+    font-size: 1.9rem;
+    border: 1px solid #999999;
+    border-radius: 1rem;
+    display: inline-block;
+    text-align: center;
+
+}
+
+
+div h2{
+    margin: 4rem 0;
+    font-style:inherit;
+    font-size: 1.9rem;
+    left: 140px;
+    display: flex;
+}
+
+div p{
+    padding: 1rem;
+    font-style:normal;
+    font-size: 1.9rem;
+    left: 140px;
+    display: flex;
+    
+}
+
+.eilik2{
+    width: 100%;
+   
+}
+
+main{
+    margin: 2rem 0;
+}
+
+div h3{
+    margin: 4rem 0;
+    font-style:inherit;
+    font-size: 1.9rem;
+    left: 140px;
+    display: flex;
+}
+
+footer {
+    margin-top: 4rem;
+    background-color: #000000;
+    text-align: center;
+    padding: 2.5rem;
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+
+
+
